@@ -41,7 +41,7 @@ const ExpenseHistory = () => {
   const [category, setCategory] = useState('');
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(10);
-  const [orderBy, setOrderBy] = useState('date');
+  //const [orderBy, setOrderBy] = useState('date');
   const [order, setOrder] = useState('desc'); // 'desc' = newest first, 'asc' = oldest first
   const [editDialog, setEditDialog] = useState(false);
   const [editExpense, setEditExpense] = useState(null);
