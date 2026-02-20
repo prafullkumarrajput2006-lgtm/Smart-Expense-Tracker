@@ -1,0 +1,45 @@
+.add-expense-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.add-expense-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-expense-container input[type="file"],
+.add-expense-container input[type="text"],
+.add-expense-container input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-expense-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-expense-container button:hover {
+  background-color: #1a1d23;
+}
+
+.add-expense-container p {
+  text-align: center;
+  margin-top: 15px;
+  color: #333;
+}

@@ -1,0 +1,46 @@
+.expense-history-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.expense-history-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.expense-history-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.expense-history-container table thead {
+  background-color: #282c34;
+  color: white;
+}
+
+.expense-history-container table th,
+.expense-history-container table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-history-container table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.expense-history-container table button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.expense-history-container table button:hover {
+  background-color: #1a1d23;
+}
